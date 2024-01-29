@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>KitamuraKiyokaのportfolio</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:767px)">
+</head>
+<body id="contact">
+    <header id="top">
+        <h1><a href="index.html"><img src="images/logo.png" alt="kiyokaKitamura"></a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="nav_profile"><a href="profile.html">Profile</a></li>
+            <li id="nav_work"><a href="work.html">Work</a></li>
+            <li id="nav_skill"><a href="skill.html">Skill</a></li>
+            <li id="nav_contact"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="breadcrumb">
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li>お問い合わせ</li>
+        </ul>
+    </div>
+    <div id="contents">
+        <div id="main">
+            <article>
+                <h1>お問い合わせ</h1>
+                <p>お仕事の依頼や作品に関するお問い合わせは、こちらからお寄せください。</p>
+                <ul>
+                <li>必要事項を記入し、「メールする」をクリックしてください。</li>
+                <li>ご登録いただいた個人情報は、お問い合わせ内容の確認以外には使用いたしません。</li>
+                </ul>
+                <form action="#">
+                <p><label>お名前（必須）<br><input type="text" name="name" required></label></p>
+                <p><label>メールアドレス（必須）<br><input type="email" name="mail" required></label></p>
+                <p>お問い合わせ種類<br>
+                <label><input type="radio" name="kind" value="0">仕事の依頼</label>　<label><input type="radio" name="kind" value="1">その他</label></p>
+                <p><label>内容<br><textarea name="comment"></textarea></label></p>
+                <input type="submit" value="メールする">
+                </form>
+            </article>
+        </div>
+        <div id="sub">
+            <div class="bnr_inner">
+                <a href="plan.html">
+                <dl>
+                <dt><img src="images/bnr_plan.jpg" alt="プランのご案内"></dt>
+                <dd>標準のプランをご紹介いたします。</dd>
+                </dl>
+                </a>
+            </div>
+            <div class="bnr_inner">
+                <a href="contact.html">
+                <p><img src="images/bnr_contact.png" alt="お問い合わせ"></p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p id="pagetop"><a href="#top">ページの先頭へ戻る</a></p>
+        <address>熊本県熊本市在住 Web・DTPデザイナーをめざしてる人です。</address>
+        <p id="copyright"><small>2024 kiyoka kitamura</small></p>
+    </footer>
+</body>
+</html>
